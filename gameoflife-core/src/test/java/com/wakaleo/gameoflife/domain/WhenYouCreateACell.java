@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.is;
 import org.junit.Test;
 
 public class WhenYouCreateACell {
-    @Ignore("Pending more details")
+
     @Test
     public void aLiveCellShouldBeRepresentedByAnAsterisk() {
         Cell cell = Cell.fromSymbol("*");
